@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.prjucu.pawbook">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PawBook"
+        tools:targetApi="31">
+        <activity
+            android:name=".obesity_treatment"
+            android:exported="false" />
+        <activity
+            android:name=".urinary_treatment"
+            android:exported="false" />
+        <activity
+            android:name=".stiffness_treatment"
+            android:exported="false" />
+        <activity
+            android:name=".vomiting_treatment"
+            android:exported="false" />
+        <activity
+            android:name=".dental_treatment"
+            android:exported="false" />
+        <activity
+            android:name=".itchy_treatment"
+            android:exported="false" />
+        <activity
+            android:name=".ear_treatment"
+            android:exported="false" />
+        <activity
+            android:name=".obesity"
+            android:exported="false" />
+        <activity
+            android:name=".urinary"
+            android:exported="false" />
+        <activity
+            android:name=".stiffness"
+            android:exported="false" />
+        <activity
+            android:name=".vomiting"
+            android:exported="false" />
+        <activity
+            android:name=".dental_disease"
+            android:exported="false" />
+        <activity
+            android:name=".itchy_skin"
+            android:exported="false" />
+        <activity
+            android:name=".ear_infections"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".common_illness"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

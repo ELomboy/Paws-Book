@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1017894448040",
+    "project_id": "paw-book",
+    "storage_bucket": "paw-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017894448040:android:86b63eaf5b555ff4640b9d",
+        "android_client_info": {
+          "package_name": "com.prjucu.pawbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017894448040-f8kd6ps7eon9m2i1t5ot6285mmpvdpfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb4_KN4qqTA4MH6fisNchQ_BrA2bdQegQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017894448040-f8kd6ps7eon9m2i1t5ot6285mmpvdpfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
